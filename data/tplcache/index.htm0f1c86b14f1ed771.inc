@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",678,704);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",748,778);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",815,842);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",1577,1612);
+$z[3][4]['filename']="head.htm";
+$z[4]=Array("type"," <a href=\"[field:typelink/]\"><img src=\"/skin/images/about-bg.png\"></a>",2345,2449);
+$z[4][4]['typeid']="2";
+$z[5]=Array("sql"," \r\n      [field:content  function='cn_substr(html2text(@me),580)'/]...\r\n      ",2490,2639);
+$z[5][4]['sql']="Select content from dede_arctype where id=2";
+$z[6]=Array("type","<a href=\"[field:typelink/]\">[查看详情]</a>",2652,2732);
+$z[6][4]['typeid']="2";
+$z[7]=Array("type"," <a href=\"[field:typelink/]\">\r\n  <div class=\"gengduo\"></div>\r\n  </a>",2898,3000);
+$z[7][4]['typeid']="8";
+$z[8]=Array("arclist","\r\n  <div class=\"newn_bt\"> \r\n    <!--上-->\r\n    <div class=\"newn_bt_l fl\"><a href=\"[field:arcurl/]\"><img src=\"[field:picname/]\" style=\"width: 115px;height:81px;\"></a></div>\r\n    <div class=\"newn_bt_r fr\"> <span><strong><a href=\"[field:arcurl/]\">[field:title/]...</a></strong></span>\r\n      <p>[field:info/]...</p>\r\n      <span>[field:pubdate function=\"MyDate('Y.m.d',@me)\"/]</span></div>\r\n  </div>\r\n  ",3005,3483);
+$z[8][4]['typeid']="8";
+$z[8][4]['limit']="0,1";
+$z[8][4]['infolen']="80";
+$z[8][4]['titlelen']="24";
+$z[9]=Array("arclist","\r\n        <li><a href=\"[field:arcurl/]\">[field:title/]...</a><a style=\"float:right; margin-right:-90px;\">[field:pubdate function=\"MyDate('Y.m.d',@me)\"/]</a></li>\r\n        ",3573,3808);
+$z[9][4]['typeid']="8";
+$z[9][4]['limit']="1,3";
+$z[9][4]['titlelen']="38";
+$z[10]=Array("type"," <a href=\"[field:typelink/]\">\r\n  <div class=\"gengduo\"></div>\r\n  </a>",3918,4020);
+$z[10][4]['typeid']="9";
+$z[11]=Array("arclist","\r\n  <div class=\"newn_bt\">\r\n    <div class=\"newn_bt_l fl\"><img src=\"[field:picname/]\" style=\"width: 115px;height:81px;\"></div>\r\n    <div class=\"newn_bt_r fr\"> <span><strong><a href=\"[field:arcurl/]\">[field:title/]...</a></strong></span>\r\n      <p>[field:info/]...</p>\r\n      <span>date&nbsp;:&nbsp;[field:pubdate function=\"MyDate('Y.m.d',@me)\"/]</span></div>\r\n  </div>\r\n  ",4024,4472);
+$z[11][4]['typeid']="9";
+$z[11][4]['limit']="0,1";
+$z[11][4]['infolen']="80";
+$z[11][4]['titlelen']="24";
+$z[12]=Array("arclist","\r\n        <li><a href=\"[field:arcurl/]\">[field:title/]...</a><a style=\"float:right; margin-right:-90px;\">[field:pubdate function=\"MyDate('Y.m.d',@me)\"/]</a></li>\r\n        ",4545,4780);
+$z[12][4]['typeid']="9";
+$z[12][4]['limit']="1,3";
+$z[12][4]['titlelen']="38";
+$z[13]=Array("type"," <a href=\"[field:typelink/]\">\r\n    <div class=\"pp1\"><strong>[field:typename/]</strong></div>\r\n    <div class=\"pp2\">R & D Center</div>\r\n    </a>",6369,6547);
+$z[13][4]['typeid']="23";
+$z[14]=Array("type","<a href=\"[field:typelink/]\">\r\n    <div class=\"pp1\"><strong>企业荣誉与产品认证</strong></div>\r\n    <div class=\"pp2\">Honor Certification</div>\r\n    </a>",6577,6770);
+$z[14][4]['typeid']="4";
+$z[15]=Array("type"," <a href=\"[field:typelink/]\">\r\n    <div class=\"pp1\"><strong>[field:typename/]</strong></div>\r\n    <div class=\"pp2\">Contact Us</div>\r\n    </a>",6801,6977);
+$z[15][4]['typeid']="22";
+$z[16]=Array("include","",7219,7256);
+$z[16][4]['filename']="footer.htm";
+
+?>
